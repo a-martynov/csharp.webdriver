@@ -84,6 +84,13 @@ Select *Test* and then select *NUnit Test Fixture* or *NUnit Setup Fixture*
 
 Congratulations! You have just created your first NUnit test!
 
+--
+
+### Issues
+Parallel execution of methods within a class is not yet implemented. More information is provided here: [Run test methods within a fixture in parallel](https://github.com/nunit/nunit/issues/164)
+
+--
+
 ###Contributions
 
 If you have any code examples you would like to contribute to this repository, please feel free to open a pull request.
