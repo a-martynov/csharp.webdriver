@@ -64,7 +64,10 @@
     <Compile Include="pages\HomePage.cs" />
     <Compile Include="pages\RegisterPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tests\GithubTest.cs" />
     <Compile Include="tests\GoogleSearch.cs" />
+    <Compile Include="tests\GoogleTest.cs" />
+    <Compile Include="tests\YahooTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

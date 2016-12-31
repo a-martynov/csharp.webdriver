@@ -6,13 +6,13 @@ namespace Selenium.tests
 {
     [TestFixture]
     [Parallelizable]
-    public class GoogleSearch : TestBase
+    public class YahooTest : TestBase
     {
         [Test]
         public void TestMethod()
         {
             var page = new HomePage(Driver);
-            page.Register().CreateAccount();
+            page.OpenYahooPage();
         }
     }
 }
